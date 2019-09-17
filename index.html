@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/toast.css">
+
+  <title>Cryptographic Algorithms</title>
+</head>
+<body>
+    <header>                                                                                                                                                    
+        <nav class="navbar navbar-dark bg-dark">                                                                                                                  
+          <a class="navbar-brand" href="#">LiviaSoft Labs</a>                                                                                                
+        </nav>                                                                                                                                                    
+        <div class="jumbotron jumbotron-fluid text-white" style="background-image: url('assets/images/tech.jpg'); background-size: cover; padding: 0;">
+          <div class="overlay" style="background: rgba(0,0,0,0.5); height: 100%;">                                                                                
+          <div class="container pb-4 pt-4">                                                                                                                       
+            <h2 class="display-4">Cryptography Demo</h2>                                                                                                           
+            <p class="lead">                                                                                                                                      
+              A Demonstration of Different <strong>Cryptographic Algorithms</strong> developed with <strong>Javascript</strong>                            
+            </p>                                                                                                                                                  
+          </div>                                                                                                                                                  
+        </div>                                                                                                                                                    
+        </div>                                                                                                                                                    
+      </header>                                                                                                                                                   
+  <div class="container">
+    <h4>ROT 13 Cipher <small>Javascript</small></h4>
+    <hr>
+    <form>
+        <div class="form-group">
+          <label for="rot13">Enter Text</label>
+          <input type="text" class="form-control" id="rot13" aria-describedby="emailHelp" placeholder="Enter text for ROT 13 Encryption/Decryption">
+        </div>
+        <button type="button" id="rot13enc" class="btn btn-outline-primary mr-3">Encrypt</button>
+<button type="button" id="rot13dec" class="btn btn-outline-success">Decrypt</button>
+      </form>
+      <p class="mt-2">Output: <span id="rot13result"></span></p>
+
+    
+  </div>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/toast.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
